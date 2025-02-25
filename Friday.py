@@ -4,7 +4,7 @@ import time
 import speech_recognition as sr
 
 # set api key
-openai.api_key="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"
+openai.api_key="OpenAi API key"
 engine = pyttsx3.init()
 
 def transcribe_audio_to_text(filename):
